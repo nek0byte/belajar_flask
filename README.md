@@ -52,7 +52,6 @@ Buka http://localhost:8000 di browser.
 
 ## Cara Belajar
 
-Flow belajar yang disarankan:
 
 ### Fase 1: Pahami Konsep (baca, tidak perlu kode)
 
