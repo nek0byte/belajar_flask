@@ -8,8 +8,6 @@
 - Bedanya method GET dan POST
 - Apa itu status code
 
-Tidak ada kode di materi ini. Murni konsep.
-
 
 ## Analogi: Surat-menyurat
 
