@@ -71,7 +71,7 @@ Browser                          Server
   │   GET /beranda HTTP/1.1        │
   │   Host: www.example.com        │
   │                                │
-  │<──_ RESPONSE ──────────────────┤
+  │<─── RESPONSE ──────────────────┤
   │   HTTP/1.1 200 OK              │
   │   Content-Type: text/html      │
   │                                │
