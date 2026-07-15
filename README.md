@@ -45,7 +45,7 @@ source venv/bin/activate      # Linux / Mac
 pip install flask flask-sqlalchemy
 
 # 5. Jalankan aplikasi
-python run.py
+python main.py
 ```
 
 Buka http://localhost:8000 di browser.
@@ -84,7 +84,7 @@ Buka http://localhost:8000 di browser.
 learn_flask/
 ├── README.md                   # File ini -- panduan proyek
 ├── requirements.txt            # Daftar library yang dibutuhkan
-├── run.py                      # File untuk menjalankan aplikasi
+├── main.py                     # File untuk menjalankan aplikasi
 ├── materi/                     # 10 file materi pembelajaran
 │   ├── 00-apa-itu-backend.md
 │   ├── 01-cara-kerja-web.md

@@ -168,7 +168,7 @@ Jangan lupa!
 | `pip install flask` | Install Flask |
 | `pip list` | Lihat daftar library terinstall |
 | `deactivate` | Keluar dari venv |
-| `python run.py` | Jalankan aplikasi Flask (nanti dipakai) |
+| `python main.py` | Jalankan aplikasi Flask (nanti dipakai) |
 
 
 ## Yang Perlu Diingat

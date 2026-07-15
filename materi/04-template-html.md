@@ -85,7 +85,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    nama = 'Budi'
+    nama = 'Bluecat'
     return render_template('index.html', nama=nama)
 
 
@@ -109,11 +109,11 @@ Parameter `nama=nama`:
 - Yang kiri (`nama`) adalah **nama variabel di HTML** (yang ada di `{{ }}`)
 - Yang kanan (`nama`) adalah **nilai dari Python**
 
-Jadi `{{ nama }}` di HTML akan diganti menjadi `'Budi'`.
+Jadi `{{ nama }}` di HTML akan diganti menjadi `'Bluecat'`.
 
 ### Hasil
 
-Buka `http://localhost:8000/sapa/Andi`. Browser akan menampilkan:
+Buka `http://localhost:8000/sapa/Ether`. Browser akan menampilkan:
 
 ```
 Halo, Ether!
@@ -203,8 +203,6 @@ lalu halaman lain tinggal mengisi bagian yang berbeda.
 </body>
 </html>
 ```
-
-`{% block nama %}` adalah "lubang" yang bisa diisi oleh halaman lain.
 
 ### index.html (Mewarisi base.html)
 

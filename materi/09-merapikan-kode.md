@@ -158,7 +158,7 @@ Seiring proyekmu bertambah besar, struktur foldermu bisa berkembang.
 
 ```
 learn_flask/
-├── run.py
+├── main.py
 ├── requirements.txt
 └── board/
     ├── __init__.py       # App factory + konfigurasi
@@ -172,7 +172,7 @@ learn_flask/
 
 ```
 project/
-├── run.py
+├── main.py
 ├── config.py             # Konfigurasi terpisah
 ├── requirements.txt
 └── myapp/
@@ -192,7 +192,7 @@ project/
 
 ```
 project/
-├── run.py
+├── main.py
 ├── config.py
 ├── requirements.txt
 ├── tests/                # File test terpisah
@@ -223,4 +223,4 @@ konsepnya, bukan ukuran foldernya.
 | Banyak Blueprint | Buat file terpisah untuk setiap fitur |
 
 Yang penting: **Blueprint adalah alat untuk mengorganisir kode**. Ketika
-aplikasimu mulai punya banyak fitur, pisahkan ke blueprint berbeda.
+aplikasi mulai punya banyak fitur, pisahkan ke blueprint berbeda.
