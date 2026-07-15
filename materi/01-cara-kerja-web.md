@@ -68,12 +68,12 @@ Kedua duanya menggunakan aturan HTTP agar saling paham.
 Browser                          Server
   │                                │
   ├── REQUEST ────────────────────>│
-  │   GET /beranda HTTP/1.1       │
-  │   Host: www.example.com       │
+  │   GET /beranda HTTP/1.1        │
+  │   Host: www.example.com        │
   │                                │
-  │<── RESPONSE ──────────────────┤
-  │   HTTP/1.1 200 OK             │
-  │   Content-Type: text/html     │
+  │<──_ RESPONSE ──────────────────┤
+  │   HTTP/1.1 200 OK              │
+  │   Content-Type: text/html      │
   │                                │
   │   <html>... Halaman ...        │
   │   </html>                      │
