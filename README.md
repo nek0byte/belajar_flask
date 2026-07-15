@@ -52,10 +52,6 @@ Buka http://localhost:8000 di browser.
 
 ## Cara Belajar
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 4990c5b413cd4ad0bbdd00986a34973b76d51114
 ### Fase 1: Pahami Konsep (baca, tidak perlu kode)
 
 | # | File | Pelajari |
