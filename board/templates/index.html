@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}Beranda — Message Board{% endblock %}
+
+{% block content %}
+    <h1>Message Board</h1>
+
+    <a href="{{ url_for('board.create') }}" class="btn">+ Tambah Pesan</a>
+
+    <div class="messages">
+        {% for msg in messages %}
+            <div class="message-card">
+                <h3>{{ msg.title }}</h3>
+                <p>{{ msg.body }}</p>
+                <small>Oleh: {{ msg.author }} &middot; {{ msg.created_at.strftime('%d/%m/%Y %H:%M') }}</small>
+                <div class="actions">
+                    <a href="{{ url_for('board.edit', id=msg.id) }}">Edit</a>
+                    <a href="{{ url_for('board.delete', id=msg.id) }}"
+                       onclick="return confirm('Yakin ingin menghapus?')">Hapus</a>
+                </div>
+            </div>
+        {% else %}
+            <p class="empty">Belum ada pesan. Jadilah yang pertama!</p>
+        {% endfor %}
+    </div>
+{% endblock %}

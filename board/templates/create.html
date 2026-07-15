@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %}Tambah Pesan{% endblock %}
+
+{% block content %}
+    <h1>Tambah Pesan Baru</h1>
+
+    <form method="POST">
+        <div>
+            <label for="title">Judul</label>
+            <input type="text" id="title" name="title" required>
+        </div>
+        <div>
+            <label for="author">Nama</label>
+            <input type="text" id="author" name="author" required>
+        </div>
+        <div>
+            <label for="body">Isi Pesan</label>
+            <textarea id="body" name="body" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn">Kirim</button>
+        <a href="{{ url_for('board.home') }}" class="btn btn-secondary">Batal</a>
+    </form>
+{% endblock %}
