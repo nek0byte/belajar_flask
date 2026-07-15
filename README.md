@@ -26,8 +26,6 @@ dasar (sampai OOP) tapi belum tahu apa-apa tentang backend.
 - Database
 - Server
 
-Semua akan dijelaskan dari awal.
-
 ## Cara Menjalankan
 
 ```bash
