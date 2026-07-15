@@ -32,7 +32,7 @@ Semua akan dijelaskan dari awal.
 
 ```bash
 # 1. Buka folder proyek
-cd learn_flask
+cd "nama folder proyek"
 
 # 2. Buat virtual environment (hanya sekali)
 python3 -m venv venv
@@ -51,8 +51,6 @@ python run.py
 Buka http://localhost:8000 di browser.
 
 ## Cara Belajar
-
-Flow belajar yang disarankan:
 
 ### Fase 1: Pahami Konsep (baca, tidak perlu kode)
 

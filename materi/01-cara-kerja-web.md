@@ -70,12 +70,12 @@ Kedua duanya menggunakan aturan HTTP agar saling paham.
 Browser                          Server
   │                                │
   ├── REQUEST ────────────────────>│
-  │   GET /beranda HTTP/1.1       │
-  │   Host: www.example.com       │
+  │   GET /beranda HTTP/1.1        │
+  │   Host: www.example.com        │
   │                                │
-  │<── RESPONSE ──────────────────┤
-  │   HTTP/1.1 200 OK             │
-  │   Content-Type: text/html     │
+  │<─── RESPONSE ──────────────────┤
+  │   HTTP/1.1 200 OK              │
+  │   Content-Type: text/html      │
   │                                │
   │   <html>... Halaman ...        │
   │   </html>                      │
@@ -86,7 +86,7 @@ Ini terjadi setiap kali kamu membuka halaman web.
 
 ## HTTP Methods (Cara Meminta)
 
-Ada beberapa "kata kerja" HTTP yang berbeda untuk tujuan berbeda:
+Ada beberapa method HTTP yang berbeda untuk tujuan berbeda:
 
 ### GET -- Minta Data
 

@@ -10,7 +10,7 @@
 Tidak ada kode aplikasi di sini. Murni setup.
 
 
-## Cerita Dulu: Kotak Alat Kerja
+## Analogi: Kotak Alat Kerja
 
 Bayangkan kamu seorang montir. Setiap montir punya **kotak alat** sendiri.
 Ada yang isinya kunci pas, obeng, tang.
