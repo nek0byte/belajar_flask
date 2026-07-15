@@ -116,7 +116,7 @@ Jadi `{{ nama }}` di HTML akan diganti menjadi `'Budi'`.
 Buka `http://localhost:8000/sapa/Andi`. Browser akan menampilkan:
 
 ```
-Halo, Andi!
+Halo, Ether!
 Selamat datang di website pertamaku.
 ```
 
@@ -130,7 +130,7 @@ Kita bisa mengirim data yang lebih rumit, seperti list atau dictionary.
 ```python
 @app.route('/daftar')
 def daftar():
-    teman = ['Budi', 'Ani', 'Caca', 'Dedi']
+    teman = ['Bluecat', 'Ether', 'Philia']
     return render_template('daftar.html', teman=teman)
 ```
 

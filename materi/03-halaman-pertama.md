@@ -142,7 +142,7 @@ fungsi `home()` dan **sebelum** `if __name__`:
 ```python
 @app.route('/tentang')
 def tentang():
-    return '<h1>Tentang Kami</h1><p>Ini halaman tentang.</p>'
+    return '<h1>Tentang</h1><p>Ini halaman tentang.</p>'
 ```
 
 Karena `debug=True`, kamu tidak perlu restart server. Cukup simpan file,
