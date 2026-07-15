@@ -8,7 +8,7 @@
 - Menggunakan template inheritance
 
 
-## Cerita Dulu: Koki dan Desainer
+## Analogi: Koki dan Desainer
 
 Bayangkan sebuah restoran. Ada dua orang:
 1. **Koki** (kita / Python) -- menyiapkan bahan dan memasak

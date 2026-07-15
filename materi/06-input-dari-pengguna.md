@@ -9,7 +9,7 @@
 - Menerapkan PRG pattern (Post-Redirect-Get)
 
 
-## Cerita Dulu: Buku Tamu
+## Analogi: Buku Tamu
 
 Bayangkan sebuah toko. Di pintu masuk ada **buku tamu**. Pengunjung bisa
 menulis nama dan pesan. Pemilik toko bisa membaca semua pesan.

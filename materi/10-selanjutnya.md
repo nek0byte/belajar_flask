@@ -9,9 +9,6 @@
 
 ## Review: Yang Sudah Kamu Pelajari
 
-Selamat! Kamu sudah menyelesaikan materi dasar backend dengan Flask.
-Mari kita review apa saja yang sudah kamu kuasai:
-
 ### Level 1: Konsep Web
 
 | Materi | Yang Kamu Kuasai |
@@ -47,8 +44,7 @@ Kamu sekarang bisa membuat aplikasi web sederhana dengan Python dan Flask!
 
 ## Topik Selanjutnya
 
-Setelah menguasai dasar, berikut topik-topik yang perlu dipelajari untuk
-menjadi backend developer yang lebih baik:
+Setelah menguasai dasar, berikut topik-topik yang akan kita pelajari:
 
 ### 1. Error Handling
 
@@ -61,7 +57,7 @@ def not_found(error):
     return render_template('404.html'), 404
 ```
 
-Pelajari juga: `@app.errorhandler(500)` untuk error server.
+`@app.errorhandler(500)` untuk error server.
 
 ### 2. Konfigurasi dengan .env
 
@@ -124,8 +120,7 @@ lain bisa mengakses. Pelajari:
 | PythonAnywhere | Hosting gratis untuk Flask |
 | Render / Railway | Hosting modern dengan git integration |
 
-
-## Rekomendasi Belajar
+---
 
 ### Urutan Belajar Topik Lanjutan
 
@@ -139,25 +134,6 @@ lain bisa mengakses. Pelajari:
 7. Deployment          (PythonAnywhere / Render)
 ```
 
-### Sumber Belajar
-
-| Sumber | Link |
-|---|---|
-| Dokumentasi Flask | https://flask.palletsprojects.com/ |
-| Flask Mega Tutorial | https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial |
-| PythonAnywhere | https://www.pythonanywhere.com/ |
-
-### Tips Belajar
-
-1.  **Buat proyek sendiri** -- jangan hanya ikut tutorial. Buat aplikasi
-    yang kamu butuhkan sendiri.
-2.  **Baca error** -- error bukan musuh. Error memberitahu apa yang salah.
-    Bacalah perlahan.
-3.  **Googling** -- "cara membuat login Flask" akan memberikan banyak
-    hasil. Biasakan mencari solusi sendiri.
-4.  **Tiru, lalu modifikasi** -- ambil kode orang lain, pahami, lalu ubah.
-
-
 ## Proyek Latihan
 
 Coba buat salah satu proyek ini untuk mempraktikkan semua yang sudah
@@ -165,23 +141,7 @@ dipelajari:
 
 | Proyek | Fitur yang Dipelajari |
 |---|---|
-| **To-Do List** | CRUD, checklist selesai/belum, filter |
 | **Buku Catatan** | CRUD, kategori, pencarian |
 | **Buku Tamu Digital** | CRUD, tanggal, sorting |
 | **Katalog Produk** | CRUD dengan gambar, kategori |
 | **Blog Mini** | Post, komentar, user |
-
-Setiap proyek di atas bisa dibuat dengan Flask, database SQLite, dan
-pengetahuan yang sudah kamu pelajari.
-
-
-## Kata Penutup
-
-Kamu sudah menyelesaikan 10 materi dasar Flask. Dari tidak tahu apa itu
-backend, sekarang bisa membuat aplikasi web dengan database sendiri.
-
-**Yang terpenting**: teruslah praktik. Semakin sering membuat proyek,
-semakin paham konsepnya. Jangan takut error -- setiap error adalah
-pelajaran.
-
-Selamat belajar dan semoga berhasil!

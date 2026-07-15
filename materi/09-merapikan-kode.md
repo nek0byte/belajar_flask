@@ -7,7 +7,7 @@
 - Mengenal struktur proyek Flask yang rapi
 
 
-## Cerita Dulu: Lemari Arsip vs Tumpukan Kertas
+## Analogi: Lemari Arsip vs Tumpukan Kertas
 
 Bayangkan semua catatanmu ditulis di satu lembar kertas raksasa. Catatan
 belanja, jadwal kuliah, nomor telepon, ide proyek -- semuanya di satu

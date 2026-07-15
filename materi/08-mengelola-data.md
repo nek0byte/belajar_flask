@@ -8,7 +8,7 @@
 - Menangani kasus data tidak ditemukan
 
 
-## Cerita Dulu: Buku Tamu (Lanjutan)
+## Analogi: Buku Tamu (Lanjutan)
 
 Ingat buku tamu dari materi 06? Sekarang kita tambah fitur:
 

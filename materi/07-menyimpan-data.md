@@ -8,7 +8,7 @@
 - Menyimpan dan mengambil data dari database SQLite
 
 
-## Cerita Dulu: Lemari Arsip
+## Analogi: Lemari Arsip
 
 Di materi sebelumnya, kita menyimpan data pesan di **list** Python:
 

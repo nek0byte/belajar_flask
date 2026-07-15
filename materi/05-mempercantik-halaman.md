@@ -10,7 +10,7 @@ Tidak ada logika Python baru di sini. Murni tentang bagaimana Flask
 menangani file-file statis seperti CSS, gambar, dan JavaScript.
 
 
-## Cerita Dulu: Baju untuk Website
+## Analogi: Baju untuk Website
 
 Bayangkan HTML adalah **kerangka tubuh manusia**:
 - Ada kepala, badan, tangan, kaki

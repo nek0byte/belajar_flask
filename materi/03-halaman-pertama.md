@@ -10,7 +10,7 @@
 Ini adalah **materi paling penting**. Pahami baik-baik.
 
 
-## Cerita Dulu: Papan Petunjuk Arah
+## Analogi: Papan Petunjuk Arah
 
 Bayangkan kamu bekerja di resepsionis sebuah gedung besar. Di gedung itu ada
 banyak ruangan: Ruang A, Ruang B, Ruang C.
