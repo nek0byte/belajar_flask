@@ -41,13 +41,13 @@ Di database, data disimpan dalam bentuk **tabel** (seperti Excel):
 
 | id | title | author | body |
 |---|---|---|---|
-| 1 | Halo | Budi | Halo dunia |
-| 2 | Test | Ani | Test 123 |
+| 1 | Halo | Ether | Halo dunia |
+| 2 | Test | Bluecat | Test 123 |
 
 Di Python OOP, kita suka bekerja dengan **object**:
 
 ```python
-pesan = Message(title='Halo', author='Budi', body='Halo dunia')
+pesan = Message(title='Halo', author='Ether', body='Halo dunia')
 print(pesan.title)   # 'Halo'
 ```
 
