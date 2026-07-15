@@ -24,7 +24,7 @@ Sekarang, bayangkan ini adalah sebuah website:
 
 - Kamu adalah **pengguna** yang membuka website di browser.
 - **Browser** (Chrome, Firefox) adalah pelayan yang menampilkan halaman
-  kepadamu.
+  kepadamu atau menampilkan bagian Frontend dari website. 
 - **Backend** adalah koki di dapur yang menyiapkan data yang kamu minta.
 
 | Restoran | Website |
